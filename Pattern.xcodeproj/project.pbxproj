@@ -13,6 +13,9 @@
 		75767A7E2785C12E0099F5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75767A7C2785C12E0099F5A1 /* Main.storyboard */; };
 		75767A802785C12F0099F5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75767A7F2785C12F0099F5A1 /* Assets.xcassets */; };
 		75767A832785C12F0099F5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75767A812785C12F0099F5A1 /* LaunchScreen.storyboard */; };
+		75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8A2785DDF00099F5A1 /* Exercise.swift */; };
+		75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8D2785DF480099F5A1 /* Jumping.swift */; };
+		75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8F2785DFFE0099F5A1 /* Squarts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		75767A7F2785C12F0099F5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75767A822785C12F0099F5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75767A842785C12F0099F5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75767A8A2785DDF00099F5A1 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		75767A8D2785DF480099F5A1 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		75767A8F2785DFFE0099F5A1 /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,23 @@
 				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
 				75767A7A2785C12E0099F5A1 /* ViewController.swift */,
+				75767A8C2785DDF50099F5A1 /* FactoreMethod */,
 				75767A7C2785C12E0099F5A1 /* Main.storyboard */,
 				75767A7F2785C12F0099F5A1 /* Assets.xcassets */,
 				75767A812785C12F0099F5A1 /* LaunchScreen.storyboard */,
 				75767A842785C12F0099F5A1 /* Info.plist */,
 			);
 			path = Pattern;
+			sourceTree = "<group>";
+		};
+		75767A8C2785DDF50099F5A1 /* FactoreMethod */ = {
+			isa = PBXGroup;
+			children = (
+				75767A8A2785DDF00099F5A1 /* Exercise.swift */,
+				75767A8D2785DF480099F5A1 /* Jumping.swift */,
+				75767A8F2785DFFE0099F5A1 /* Squarts.swift */,
+			);
+			path = FactoreMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75767A7B2785C12E0099F5A1 /* ViewController.swift in Sources */,
+				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
+				75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */,
 				75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */,
+				75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */,
 				75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
