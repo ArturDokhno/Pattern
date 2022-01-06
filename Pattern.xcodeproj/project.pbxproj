@@ -58,6 +58,7 @@
 		75D8DED1278749030055CCE9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		75D8DED3278749A60055CCE9 /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
 		75D8DED527874A3E0055CCE9 /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
+		75D8DEDD27874EEE0055CCE9 /* Prototype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Prototype.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
 				75767A8C2785DDF50099F5A1 /* FactoreMethod */,
 				75D8DEB727873D970055CCE9 /* AbstractFactory */,
+				75D8DED927874D7E0055CCE9 /* Prototype */,
 				75767A7C2785C12E0099F5A1 /* Main.storyboard */,
 				75767A7F2785C12F0099F5A1 /* Assets.xcassets */,
 				75767A812785C12F0099F5A1 /* LaunchScreen.storyboard */,
@@ -172,6 +174,14 @@
 				75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		75D8DED927874D7E0055CCE9 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DEDD27874EEE0055CCE9 /* Prototype.playground */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
