@@ -2,6 +2,16 @@
   
 import UIKit
 
+public protocol Copying {
+    init(_ prototype: Self)
+}
+
+extension Copying {
+    public func copying() -> Self {
+        return type(of: self).init(self)
+    }
+}
+
 class Person {
     
     var name: String
