@@ -4,21 +4,19 @@ import UIKit
 
 class Person {
     
-    var name = ""
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
     
     func clone() -> Person {
-        let person = Person()
-        person.name = name
-        return person
+        return Person(name: self.name)
     }
 }
 
-var person1 = Person()
-person1.name = "Jim"
-
-print(person1.name)
+var person1 = Person(name: "Jim")
 
 var person2 = person1.clone()
-person2.name = "Jack"
 
-print(person1.name)
+print(person1 === person2)
