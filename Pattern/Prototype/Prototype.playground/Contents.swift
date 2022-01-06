@@ -12,7 +12,7 @@ extension Copying {
     }
 }
 
-class Person {
+class Person: Copying {
     
     var name: String
     
@@ -20,13 +20,14 @@ class Person {
         self.name = name
     }
     
-    func clone() -> Person {
-        return Person(name: self.name)
+    required convenience init(_ prototype: Person) {
+        self.init(name: prototype.name)
     }
+    
 }
 
 var person1 = Person(name: "Jim")
 
-var person2 = person1.clone()
+var person2 = person1.copying()
 
 print(person1 === person2)
