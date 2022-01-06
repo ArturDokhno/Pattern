@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Abstract Factory-->
+        <!--Abstract FactoryVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AbstractFactory" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AbstractFactoryVC" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +39,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Заказать мебель на кухню"/>
                                 <connections>
-                                    <action selector="ggg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZt-06-UgL"/>
+                                    <action selector="kithenOrder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gks-31-oyF"/>
                                 </connections>
                             </button>
                         </subviews>

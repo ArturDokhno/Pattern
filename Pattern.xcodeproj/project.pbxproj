@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A762785C12E0099F5A1 /* AppDelegate.swift */; };
 		75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A782785C12E0099F5A1 /* SceneDelegate.swift */; };
-		75767A7B2785C12E0099F5A1 /* FactoreMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A7A2785C12E0099F5A1 /* FactoreMethod.swift */; };
+		75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */; };
 		75767A7E2785C12E0099F5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75767A7C2785C12E0099F5A1 /* Main.storyboard */; };
 		75767A802785C12F0099F5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75767A7F2785C12F0099F5A1 /* Assets.xcassets */; };
 		75767A832785C12F0099F5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75767A812785C12F0099F5A1 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 		75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8D2785DF480099F5A1 /* Jumping.swift */; };
 		75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8F2785DFFE0099F5A1 /* Squarts.swift */; };
 		75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A912785E0F00099F5A1 /* FactoreExercises.swift */; };
-		75D8DEB627873D8D0055CCE9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEB527873D8D0055CCE9 /* AbstractFactory.swift */; };
+		75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */; };
 		75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEB82787422E0055CCE9 /* Chair.swift */; };
 		75D8DEBD278743550055CCE9 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEBC278743550055CCE9 /* Table.swift */; };
 		75D8DEBF278743B10055CCE9 /* ChairBedroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEBE278743B10055CCE9 /* ChairBedroom.swift */; };
@@ -27,13 +27,16 @@
 		75D8DECC278747050055CCE9 /* ChairKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DECB278747050055CCE9 /* ChairKitchen.swift */; };
 		75D8DECE278747760055CCE9 /* TableKitchen .swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DECD278747760055CCE9 /* TableKitchen .swift */; };
 		75D8DED0278748240055CCE9 /* SofaKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DECF278748240055CCE9 /* SofaKitchen.swift */; };
+		75D8DED2278749030055CCE9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DED1278749030055CCE9 /* AbstractFactory.swift */; };
+		75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DED3278749A60055CCE9 /* BedroomFactory.swift */; };
+		75D8DED627874A3E0055CCE9 /* KitchenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DED527874A3E0055CCE9 /* KitchenFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75767A732785C12E0099F5A1 /* Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75767A762785C12E0099F5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75767A782785C12E0099F5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75767A7A2785C12E0099F5A1 /* FactoreMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoreMethod.swift; sourceTree = "<group>"; };
+		75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoreMethodVC.swift; sourceTree = "<group>"; };
 		75767A7D2785C12E0099F5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75767A7F2785C12F0099F5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75767A822785C12F0099F5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,7 +45,7 @@
 		75767A8D2785DF480099F5A1 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
 		75767A8F2785DFFE0099F5A1 /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
 		75767A912785E0F00099F5A1 /* FactoreExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoreExercises.swift; sourceTree = "<group>"; };
-		75D8DEB527873D8D0055CCE9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
 		75D8DEB82787422E0055CCE9 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 		75D8DEBC278743550055CCE9 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 		75D8DEBE278743B10055CCE9 /* ChairBedroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairBedroom.swift; sourceTree = "<group>"; };
@@ -52,6 +55,9 @@
 		75D8DECB278747050055CCE9 /* ChairKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairKitchen.swift; sourceTree = "<group>"; };
 		75D8DECD278747760055CCE9 /* TableKitchen .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableKitchen .swift"; sourceTree = "<group>"; };
 		75D8DECF278748240055CCE9 /* SofaKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaKitchen.swift; sourceTree = "<group>"; };
+		75D8DED1278749030055CCE9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		75D8DED3278749A60055CCE9 /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
+		75D8DED527874A3E0055CCE9 /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,7 @@
 				75767A8D2785DF480099F5A1 /* Jumping.swift */,
 				75767A8F2785DFFE0099F5A1 /* Squarts.swift */,
 				75767A912785E0F00099F5A1 /* FactoreExercises.swift */,
-				75767A7A2785C12E0099F5A1 /* FactoreMethod.swift */,
+				75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */,
 			);
 			path = FactoreMethod;
 			sourceTree = "<group>";
@@ -111,10 +117,11 @@
 		75D8DEB727873D970055CCE9 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				75D8DEB527873D8D0055CCE9 /* AbstractFactory.swift */,
 				75D8DEC5278744B40055CCE9 /* Protocol */,
 				75D8DEC4278744920055CCE9 /* BedroomFurniture */,
 				75D8DECA278746E00055CCE9 /* KitchenFurniture */,
+				75D8DED727874C260055CCE9 /* AbstractFactory */,
+				75D8DED827874C2D0055CCE9 /* ViewController */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -147,6 +154,24 @@
 				75D8DECF278748240055CCE9 /* SofaKitchen.swift */,
 			);
 			path = KitchenFurniture;
+			sourceTree = "<group>";
+		};
+		75D8DED727874C260055CCE9 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DED1278749030055CCE9 /* AbstractFactory.swift */,
+				75D8DED3278749A60055CCE9 /* BedroomFactory.swift */,
+				75D8DED527874A3E0055CCE9 /* KitchenFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		75D8DED827874C2D0055CCE9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,21 +245,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D8DED2278749030055CCE9 /* AbstractFactory.swift in Sources */,
 				75D8DED0278748240055CCE9 /* SofaKitchen.swift in Sources */,
 				75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */,
-				75767A7B2785C12E0099F5A1 /* FactoreMethod.swift in Sources */,
+				75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */,
 				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
 				75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */,
 				75D8DEC1278743F40055CCE9 /* CoffeeTableBedroom.swift in Sources */,
+				75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */,
 				75D8DEC7278744C90055CCE9 /* Sofa.swift in Sources */,
 				75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */,
 				75D8DECC278747050055CCE9 /* ChairKitchen.swift in Sources */,
-				75D8DEB627873D8D0055CCE9 /* AbstractFactory.swift in Sources */,
+				75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */,
 				75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */,
 				75D8DEBF278743B10055CCE9 /* ChairBedroom.swift in Sources */,
 				75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */,
 				75D8DECE278747760055CCE9 /* TableKitchen .swift in Sources */,
 				75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */,
+				75D8DED627874A3E0055CCE9 /* KitchenFactory.swift in Sources */,
 				75D8DEBD278743550055CCE9 /* Table.swift in Sources */,
 				75D8DEC92787468E0055CCE9 /* SofaBedroom.swift in Sources */,
 			);

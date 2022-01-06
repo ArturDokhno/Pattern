@@ -1,5 +1,5 @@
 //
-//  FactoreMethod.swift
+//  FactoreMethodVC.swift.swift
 //  Pattern
 //
 //  Created by Артур Дохно on 05.01.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FactoreMethod: UIViewController {
+class FactoreMethodVC: UIViewController {
     
     var exerciseArray = [Exercise]()
 
