@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352302788D83C008B0053 /* GoogleAuthenticator.swift */; };
 		753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352322788DA1E008B0053 /* TwitterAuthenticator.swift */; };
+		753352362788DADE008B0053 /* AuthServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352352788DADE008B0053 /* AuthServise.swift */; };
+		753352392788DCD3008B0053 /* GoogleAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352382788DCD3008B0053 /* GoogleAuthAdapter.swift */; };
+		7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533523A2788DFB7008B0053 /* TwitterAuthAdapter.swift */; };
+		7533523D2788E01D008B0053 /* AdapterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533523C2788E01D008B0053 /* AdapterVC.swift */; };
 		75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A762785C12E0099F5A1 /* AppDelegate.swift */; };
 		75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A782785C12E0099F5A1 /* SceneDelegate.swift */; };
 		75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */; };
@@ -38,6 +42,10 @@
 		7533522E2788D4A0008B0053 /* AdapterPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdapterPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		753352302788D83C008B0053 /* GoogleAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticator.swift; sourceTree = "<group>"; };
 		753352322788DA1E008B0053 /* TwitterAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthenticator.swift; sourceTree = "<group>"; };
+		753352352788DADE008B0053 /* AuthServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServise.swift; sourceTree = "<group>"; };
+		753352382788DCD3008B0053 /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
+		7533523A2788DFB7008B0053 /* TwitterAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthAdapter.swift; sourceTree = "<group>"; };
+		7533523C2788E01D008B0053 /* AdapterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterVC.swift; sourceTree = "<group>"; };
 		75767A732785C12E0099F5A1 /* Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75767A762785C12E0099F5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75767A782785C12E0099F5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,22 +85,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7533522F2788D4B2008B0053 /* Adapter */ = {
+		7533522F2788D4B2008B0053 /* AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
-				7533522E2788D4A0008B0053 /* AdapterPlayground.playground */,
+				7533523C2788E01D008B0053 /* AdapterVC.swift */,
+				753352372788DC97008B0053 /* Adapter */,
 				753352342788DA58008B0053 /* Auth */,
+				7533522E2788D4A0008B0053 /* AdapterPlayground.playground */,
 			);
-			path = Adapter;
+			path = AdapterPattern;
 			sourceTree = "<group>";
 		};
 		753352342788DA58008B0053 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				753352352788DADE008B0053 /* AuthServise.swift */,
 				753352302788D83C008B0053 /* GoogleAuthenticator.swift */,
 				753352322788DA1E008B0053 /* TwitterAuthenticator.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		753352372788DC97008B0053 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				753352382788DCD3008B0053 /* GoogleAuthAdapter.swift */,
+				7533523A2788DFB7008B0053 /* TwitterAuthAdapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		75767A6A2785C12D0099F5A1 = {
@@ -116,7 +136,7 @@
 			children = (
 				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
-				7533522F2788D4B2008B0053 /* Adapter */,
+				7533522F2788D4B2008B0053 /* AdapterPattern */,
 				75767A8C2785DDF50099F5A1 /* FactoreMethod */,
 				75D8DEB727873D970055CCE9 /* AbstractFactory */,
 				75D8DED927874D7E0055CCE9 /* Prototype */,
@@ -281,11 +301,13 @@
 			files = (
 				75D8DED2278749030055CCE9 /* AbstractFactory.swift in Sources */,
 				75D8DED0278748240055CCE9 /* SofaKitchen.swift in Sources */,
+				753352392788DCD3008B0053 /* GoogleAuthAdapter.swift in Sources */,
 				75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */,
 				75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */,
 				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
 				753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */,
 				753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */,
+				7533523D2788E01D008B0053 /* AdapterVC.swift in Sources */,
 				75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */,
 				75D8DEC1278743F40055CCE9 /* CoffeeTableBedroom.swift in Sources */,
 				75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */,
@@ -300,6 +322,8 @@
 				75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */,
 				75D8DED627874A3E0055CCE9 /* KitchenFactory.swift in Sources */,
 				75D8DEBD278743550055CCE9 /* Table.swift in Sources */,
+				7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */,
+				753352362788DADE008B0053 /* AuthServise.swift in Sources */,
 				75D8DEC92787468E0055CCE9 /* SofaBedroom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
