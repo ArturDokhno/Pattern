@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352302788D83C008B0053 /* GoogleAuthenticator.swift */; };
+		753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352322788DA1E008B0053 /* TwitterAuthenticator.swift */; };
 		75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A762785C12E0099F5A1 /* AppDelegate.swift */; };
 		75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A782785C12E0099F5A1 /* SceneDelegate.swift */; };
 		75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */; };
@@ -33,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7533522E2788D4A0008B0053 /* AdapterPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdapterPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		753352302788D83C008B0053 /* GoogleAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticator.swift; sourceTree = "<group>"; };
+		753352322788DA1E008B0053 /* TwitterAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthenticator.swift; sourceTree = "<group>"; };
 		75767A732785C12E0099F5A1 /* Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75767A762785C12E0099F5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75767A782785C12E0099F5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7533522F2788D4B2008B0053 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				7533522E2788D4A0008B0053 /* AdapterPlayground.playground */,
+				753352342788DA58008B0053 /* Auth */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		753352342788DA58008B0053 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				753352302788D83C008B0053 /* GoogleAuthenticator.swift */,
+				753352322788DA1E008B0053 /* TwitterAuthenticator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		75767A6A2785C12D0099F5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +116,7 @@
 			children = (
 				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
+				7533522F2788D4B2008B0053 /* Adapter */,
 				75767A8C2785DDF50099F5A1 /* FactoreMethod */,
 				75D8DEB727873D970055CCE9 /* AbstractFactory */,
 				75D8DED927874D7E0055CCE9 /* Prototype */,
@@ -260,6 +284,8 @@
 				75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */,
 				75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */,
 				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
+				753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */,
+				753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */,
 				75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */,
 				75D8DEC1278743F40055CCE9 /* CoffeeTableBedroom.swift in Sources */,
 				75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */,
