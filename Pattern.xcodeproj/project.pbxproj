@@ -13,6 +13,12 @@
 		753352392788DCD3008B0053 /* GoogleAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753352382788DCD3008B0053 /* GoogleAuthAdapter.swift */; };
 		7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533523A2788DFB7008B0053 /* TwitterAuthAdapter.swift */; };
 		7533523D2788E01D008B0053 /* AdapterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533523C2788E01D008B0053 /* AdapterVC.swift */; };
+		754A9E742789A1310095161F /* DecoratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E732789A1310095161F /* DecoratorVC.swift */; };
+		754A9E762789A7BA0095161F /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E752789A7BA0095161F /* CarProtocol.swift */; };
+		754A9E782789A82E0095161F /* MercedesCLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E772789A82E0095161F /* MercedesCLA.swift */; };
+		754A9E7B2789A93E0095161F /* MercedesDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E7A2789A93E0095161F /* MercedesDecorator.swift */; };
+		754A9E7D2789AA540095161F /* PanframeRoof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E7C2789AA540095161F /* PanframeRoof.swift */; };
+		754A9E7F2789AB370095161F /* AlloyWheels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A9E7E2789AB370095161F /* AlloyWheels.swift */; };
 		75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A762785C12E0099F5A1 /* AppDelegate.swift */; };
 		75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A782785C12E0099F5A1 /* SceneDelegate.swift */; };
 		75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */; };
@@ -46,6 +52,12 @@
 		753352382788DCD3008B0053 /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
 		7533523A2788DFB7008B0053 /* TwitterAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthAdapter.swift; sourceTree = "<group>"; };
 		7533523C2788E01D008B0053 /* AdapterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterVC.swift; sourceTree = "<group>"; };
+		754A9E732789A1310095161F /* DecoratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorVC.swift; sourceTree = "<group>"; };
+		754A9E752789A7BA0095161F /* CarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		754A9E772789A82E0095161F /* MercedesCLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesCLA.swift; sourceTree = "<group>"; };
+		754A9E7A2789A93E0095161F /* MercedesDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesDecorator.swift; sourceTree = "<group>"; };
+		754A9E7C2789AA540095161F /* PanframeRoof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanframeRoof.swift; sourceTree = "<group>"; };
+		754A9E7E2789AB370095161F /* AlloyWheels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlloyWheels.swift; sourceTree = "<group>"; };
 		75767A732785C12E0099F5A1 /* Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75767A762785C12E0099F5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75767A782785C12E0099F5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +127,34 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		754A9E722789A1090095161F /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				754A9E792789A91C0095161F /* Car */,
+				754A9E802789AB860095161F /* MercedesDecorator */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		754A9E792789A91C0095161F /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				754A9E752789A7BA0095161F /* CarProtocol.swift */,
+				754A9E772789A82E0095161F /* MercedesCLA.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		754A9E802789AB860095161F /* MercedesDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				754A9E7A2789A93E0095161F /* MercedesDecorator.swift */,
+				754A9E7C2789AA540095161F /* PanframeRoof.swift */,
+				754A9E7E2789AB370095161F /* AlloyWheels.swift */,
+			);
+			path = MercedesDecorator;
+			sourceTree = "<group>";
+		};
 		75767A6A2785C12D0099F5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +176,8 @@
 			children = (
 				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
+				754A9E722789A1090095161F /* Decorator */,
+				754A9E732789A1310095161F /* DecoratorVC.swift */,
 				7533522F2788D4B2008B0053 /* AdapterPattern */,
 				75767A8C2785DDF50099F5A1 /* FactoreMethod */,
 				75D8DEB727873D970055CCE9 /* AbstractFactory */,
@@ -302,9 +344,12 @@
 				75D8DED2278749030055CCE9 /* AbstractFactory.swift in Sources */,
 				75D8DED0278748240055CCE9 /* SofaKitchen.swift in Sources */,
 				753352392788DCD3008B0053 /* GoogleAuthAdapter.swift in Sources */,
+				754A9E742789A1310095161F /* DecoratorVC.swift in Sources */,
 				75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */,
 				75767A7B2785C12E0099F5A1 /* FactoreMethodVC.swift in Sources */,
 				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
+				754A9E782789A82E0095161F /* MercedesCLA.swift in Sources */,
+				754A9E7D2789AA540095161F /* PanframeRoof.swift in Sources */,
 				753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */,
 				753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */,
 				7533523D2788E01D008B0053 /* AdapterVC.swift in Sources */,
@@ -312,15 +357,18 @@
 				75D8DEC1278743F40055CCE9 /* CoffeeTableBedroom.swift in Sources */,
 				75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */,
 				75D8DEC7278744C90055CCE9 /* Sofa.swift in Sources */,
+				754A9E7B2789A93E0095161F /* MercedesDecorator.swift in Sources */,
 				75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */,
 				75D8DECC278747050055CCE9 /* ChairKitchen.swift in Sources */,
 				75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */,
 				75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */,
+				754A9E7F2789AB370095161F /* AlloyWheels.swift in Sources */,
 				75D8DEBF278743B10055CCE9 /* ChairBedroom.swift in Sources */,
 				75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */,
 				75D8DECE278747760055CCE9 /* TableKitchen .swift in Sources */,
 				75767A792785C12E0099F5A1 /* SceneDelegate.swift in Sources */,
 				75D8DED627874A3E0055CCE9 /* KitchenFactory.swift in Sources */,
+				754A9E762789A7BA0095161F /* CarProtocol.swift in Sources */,
 				75D8DEBD278743550055CCE9 /* Table.swift in Sources */,
 				7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */,
 				753352362788DADE008B0053 /* AuthServise.swift in Sources */,
