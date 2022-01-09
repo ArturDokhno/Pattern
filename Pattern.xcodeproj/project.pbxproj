@@ -34,6 +34,8 @@
 		759D18DE2789F93100AF31FD /* LoadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */; };
 		759D18E22789FAB400AF31FD /* LoadImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18E12789FAB400AF31FD /* LoadImageService.swift */; };
 		759D18E5278A15C000AF31FD /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18E4278A15C000AF31FD /* Proxy.swift */; };
+		759D18E8278B386400AF31FD /* BridgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18E7278B386400AF31FD /* BridgeVC.swift */; };
+		759D18EA278B38CD00AF31FD /* DayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18E9278B38CD00AF31FD /* DayPickerView.swift */; };
 		75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */; };
 		75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEB82787422E0055CCE9 /* Chair.swift */; };
 		75D8DEBD278743550055CCE9 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DEBC278743550055CCE9 /* Table.swift */; };
@@ -80,6 +82,8 @@
 		759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadServiceProtocol.swift; sourceTree = "<group>"; };
 		759D18E12789FAB400AF31FD /* LoadImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageService.swift; sourceTree = "<group>"; };
 		759D18E4278A15C000AF31FD /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		759D18E7278B386400AF31FD /* BridgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeVC.swift; sourceTree = "<group>"; };
+		759D18E9278B38CD00AF31FD /* DayPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerView.swift; sourceTree = "<group>"; };
 		75D8DEB527873D8D0055CCE9 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
 		75D8DEB82787422E0055CCE9 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 		75D8DEBC278743550055CCE9 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 			children = (
 				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
 				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
+				759D18E6278B379400AF31FD /* Bridge */,
 				759D18D72789F77E00AF31FD /* Proxy */,
 				754A9E722789A1090095161F /* Decorator */,
 				7533522F2788D4B2008B0053 /* AdapterPattern */,
@@ -239,6 +244,15 @@
 				759D18E12789FAB400AF31FD /* LoadImageService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		759D18E6278B379400AF31FD /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				759D18E7278B386400AF31FD /* BridgeVC.swift */,
+				759D18E9278B38CD00AF31FD /* DayPickerView.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		75D8DEB727873D970055CCE9 /* AbstractFactory */ = {
@@ -391,6 +405,7 @@
 				75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */,
 				754A9E782789A82E0095161F /* MercedesCLA.swift in Sources */,
 				754A9E7D2789AA540095161F /* PanframeRoof.swift in Sources */,
+				759D18EA278B38CD00AF31FD /* DayPickerView.swift in Sources */,
 				753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */,
 				759D18DE2789F93100AF31FD /* LoadServiceProtocol.swift in Sources */,
 				753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */,
@@ -417,6 +432,7 @@
 				7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */,
 				753352362788DADE008B0053 /* AuthServise.swift in Sources */,
 				75D8DEC92787468E0055CCE9 /* SofaBedroom.swift in Sources */,
+				759D18E8278B386400AF31FD /* BridgeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QR5-o6-nnf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0AW-Ux-rp3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -230,9 +230,53 @@
             </objects>
             <point key="canvasLocation" x="19" y="801"/>
         </scene>
+        <!--BridgeVC-->
+        <scene sceneID="IGZ-gY-9sO">
+            <objects>
+                <viewController id="0AW-Ux-rp3" customClass="BridgeVC" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DCy-9Q-b42">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5k-vA-G2U">
+                                <rect key="frame" x="170.5" y="602" width="73" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76W-3G-aNF" customClass="DayPickerView" customModule="Pattern" customModuleProvider="target">
+                                <rect key="frame" x="19" y="44" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="kXu-S7-r6q">
+                                <rect key="frame" x="80" y="344" width="254" height="208"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hh0-hC-FsE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hh0-hC-FsE" firstAttribute="trailing" secondItem="kXu-S7-r6q" secondAttribute="trailing" constant="80" id="NTV-zq-xdL"/>
+                            <constraint firstItem="M5k-vA-G2U" firstAttribute="top" secondItem="kXu-S7-r6q" secondAttribute="bottom" constant="50" id="OOv-S6-bhu"/>
+                            <constraint firstItem="kXu-S7-r6q" firstAttribute="centerY" secondItem="DCy-9Q-b42" secondAttribute="centerY" id="Raq-Dx-eXa"/>
+                            <constraint firstItem="kXu-S7-r6q" firstAttribute="top" secondItem="hh0-hC-FsE" secondAttribute="top" constant="300" id="Tgo-6Q-CfI"/>
+                            <constraint firstItem="kXu-S7-r6q" firstAttribute="leading" secondItem="hh0-hC-FsE" secondAttribute="leading" constant="80" id="Vxz-u9-6OW"/>
+                            <constraint firstItem="kXu-S7-r6q" firstAttribute="centerX" secondItem="DCy-9Q-b42" secondAttribute="centerX" id="hOG-IM-rCd"/>
+                            <constraint firstItem="M5k-vA-G2U" firstAttribute="centerX" secondItem="DCy-9Q-b42" secondAttribute="centerX" id="wa9-8W-XrT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dayPicker" destination="76W-3G-aNF" id="3UG-I7-Ysx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZW-7q-GN0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="1561.6071428571429"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Mercedes" width="284" height="177"/>
+        <image name="cloud" width="360" height="272"/>
         <image name="Кухня" width="1300" height="939"/>
         <image name="Спальня" width="975" height="622"/>
         <systemColor name="systemBackgroundColor">
