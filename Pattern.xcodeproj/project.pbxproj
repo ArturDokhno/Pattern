@@ -29,6 +29,12 @@
 		75767A8E2785DF480099F5A1 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8D2785DF480099F5A1 /* Jumping.swift */; };
 		75767A902785DFFE0099F5A1 /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A8F2785DFFE0099F5A1 /* Squarts.swift */; };
 		75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75767A912785E0F00099F5A1 /* FactoreExercises.swift */; };
+		7579DFCF278DE4D20060E75D /* CatalogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFCE278DE4D20060E75D /* CatalogVC.swift */; };
+		7579DFD2278DE4EA0060E75D /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFD1278DE4EA0060E75D /* CatalogPresenter.swift */; };
+		7579DFD6278DE8D50060E75D /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */; };
+		7579DFD8278DE91F0060E75D /* CatalogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */; };
+		7579DFDC278DEBFD0060E75D /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFDB278DEBFD0060E75D /* CatalogInteractor.swift */; };
+		7579DFE0278DECDF0060E75D /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFDF278DECDF0060E75D /* BuilderViewController.swift */; };
 		759D18D92789F7A000AF31FD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18D82789F7A000AF31FD /* MainVC.swift */; };
 		759D18DB2789F7F600AF31FD /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18DA2789F7F600AF31FD /* DetailVC.swift */; };
 		759D18DE2789F93100AF31FD /* LoadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */; };
@@ -78,6 +84,12 @@
 		75767A8D2785DF480099F5A1 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
 		75767A8F2785DFFE0099F5A1 /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
 		75767A912785E0F00099F5A1 /* FactoreExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoreExercises.swift; sourceTree = "<group>"; };
+		7579DFCE278DE4D20060E75D /* CatalogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogVC.swift; sourceTree = "<group>"; };
+		7579DFD1278DE4EA0060E75D /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilder.swift; sourceTree = "<group>"; };
+		7579DFDB278DEBFD0060E75D /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
+		7579DFDF278DECDF0060E75D /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
 		759D18D82789F7A000AF31FD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		759D18DA2789F7F600AF31FD /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadServiceProtocol.swift; sourceTree = "<group>"; };
@@ -191,8 +203,8 @@
 		75767A752785C12E0099F5A1 /* Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
-				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
+				7579DFDD278DEC5C0060E75D /* Source */,
+				7579DFCD278DE4C30060E75D /* Builder */,
 				759D18EB278B469100AF31FD /* Flyweight */,
 				759D18E6278B379400AF31FD /* Bridge */,
 				759D18D72789F77E00AF31FD /* Proxy */,
@@ -202,8 +214,8 @@
 				75D8DEB727873D970055CCE9 /* AbstractFactory */,
 				75D8DED927874D7E0055CCE9 /* Prototype */,
 				75767A7C2785C12E0099F5A1 /* Main.storyboard */,
-				75767A7F2785C12F0099F5A1 /* Assets.xcassets */,
 				75767A812785C12F0099F5A1 /* LaunchScreen.storyboard */,
+				75767A7F2785C12F0099F5A1 /* Assets.xcassets */,
 				75767A842785C12F0099F5A1 /* Info.plist */,
 			);
 			path = Pattern;
@@ -219,6 +231,36 @@
 				75767A7A2785C12E0099F5A1 /* FactoreMethodVC.swift */,
 			);
 			path = FactoreMethod;
+			sourceTree = "<group>";
+		};
+		7579DFCD278DE4C30060E75D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7579DFD0278DE4D80060E75D /* Catalog */,
+				7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */,
+				7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */,
+				7579DFDF278DECDF0060E75D /* BuilderViewController.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		7579DFD0278DE4D80060E75D /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				7579DFD1278DE4EA0060E75D /* CatalogPresenter.swift */,
+				7579DFCE278DE4D20060E75D /* CatalogVC.swift */,
+				7579DFDB278DEBFD0060E75D /* CatalogInteractor.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		7579DFDD278DEC5C0060E75D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75767A762785C12E0099F5A1 /* AppDelegate.swift */,
+				75767A782785C12E0099F5A1 /* SceneDelegate.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		759D18D72789F77E00AF31FD /* Proxy */ = {
@@ -409,7 +451,9 @@
 				75D8DED2278749030055CCE9 /* AbstractFactory.swift in Sources */,
 				75D8DED0278748240055CCE9 /* SofaKitchen.swift in Sources */,
 				753352392788DCD3008B0053 /* GoogleAuthAdapter.swift in Sources */,
+				7579DFDC278DEBFD0060E75D /* CatalogInteractor.swift in Sources */,
 				754A9E742789A1310095161F /* DecoratorVC.swift in Sources */,
+				7579DFCF278DE4D20060E75D /* CatalogVC.swift in Sources */,
 				75D8DEB92787422E0055CCE9 /* Chair.swift in Sources */,
 				759D18E22789FAB400AF31FD /* LoadImageService.swift in Sources */,
 				759D18E5278A15C000AF31FD /* Proxy.swift in Sources */,
@@ -419,10 +463,12 @@
 				754A9E7D2789AA540095161F /* PanframeRoof.swift in Sources */,
 				759D18EA278B38CD00AF31FD /* DayPickerView.swift in Sources */,
 				753352332788DA1E008B0053 /* TwitterAuthenticator.swift in Sources */,
+				7579DFD6278DE8D50060E75D /* ModuleBuilder.swift in Sources */,
 				759D18DE2789F93100AF31FD /* LoadServiceProtocol.swift in Sources */,
 				753352312788D83C008B0053 /* GoogleAuthenticator.swift in Sources */,
 				7533523D2788E01D008B0053 /* AdapterVC.swift in Sources */,
 				759D18D92789F7A000AF31FD /* MainVC.swift in Sources */,
+				7579DFD8278DE91F0060E75D /* CatalogBuilder.swift in Sources */,
 				75767A8B2785DDF00099F5A1 /* Exercise.swift in Sources */,
 				75D8DEC1278743F40055CCE9 /* CoffeeTableBedroom.swift in Sources */,
 				75D8DED4278749A60055CCE9 /* BedroomFactory.swift in Sources */,
@@ -430,6 +476,8 @@
 				754A9E7B2789A93E0095161F /* MercedesDecorator.swift in Sources */,
 				75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */,
 				75D8DECC278747050055CCE9 /* ChairKitchen.swift in Sources */,
+				7579DFD2278DE4EA0060E75D /* CatalogPresenter.swift in Sources */,
+				7579DFE0278DECDF0060E75D /* BuilderViewController.swift in Sources */,
 				75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */,
 				759D18DB2789F7F600AF31FD /* DetailVC.swift in Sources */,
 				75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="REJ-EW-bMg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fn7-Za-oNx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -272,6 +272,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZW-7q-GN0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="1561.6071428571429"/>
+        </scene>
+        <!--BuilderVC-->
+        <scene sceneID="bTb-vD-5ww">
+            <objects>
+                <viewController id="Fn7-Za-oNx" customClass="BuilderVC" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ypO-va-LFL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjp-OM-hud">
+                                <rect key="frame" x="177" y="432.5" width="60" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Press"/>
+                                <connections>
+                                    <action selector="pressButton:" destination="Fn7-Za-oNx" eventType="touchUpInside" id="owm-Ob-tb4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IeB-Ly-kca"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kjp-OM-hud" firstAttribute="centerY" secondItem="ypO-va-LFL" secondAttribute="centerY" id="UJm-1U-boS"/>
+                            <constraint firstItem="Kjp-OM-hud" firstAttribute="centerX" secondItem="ypO-va-LFL" secondAttribute="centerX" id="uLA-bI-rLW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D5n-FM-49Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="2271"/>
         </scene>
         <!--FlyweightVC-->
         <scene sceneID="nj2-cw-YUm">
