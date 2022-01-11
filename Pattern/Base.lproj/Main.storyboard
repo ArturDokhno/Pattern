@@ -245,7 +245,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76W-3G-aNF" customClass="DayPickerView" customModule="Pattern" customModuleProvider="target">
-                                <rect key="frame" x="20" y="44" width="374" height="48"/>
+                                <rect key="frame" x="19" y="44" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -273,10 +273,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="1561.6071428571429"/>
         </scene>
-        <!--BuilderVC-->
+        <!--Builder View Controller-->
         <scene sceneID="bTb-vD-5ww">
             <objects>
-                <viewController id="Fn7-Za-oNx" customClass="BuilderVC" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fn7-Za-oNx" customClass="BuilderViewController" customModule="Pattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ypO-va-LFL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,7 +286,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Press"/>
                                 <connections>
-                                    <action selector="pressButton:" destination="Fn7-Za-oNx" eventType="touchUpInside" id="owm-Ob-tb4"/>
+                                    <action selector="pressButton:" destination="Fn7-Za-oNx" eventType="touchUpInside" id="hFj-Jc-Urk"/>
                                 </connections>
                             </button>
                         </subviews>

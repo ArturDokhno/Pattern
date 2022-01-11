@@ -34,7 +34,7 @@
 		7579DFD6278DE8D50060E75D /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */; };
 		7579DFD8278DE91F0060E75D /* CatalogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */; };
 		7579DFDC278DEBFD0060E75D /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFDB278DEBFD0060E75D /* CatalogInteractor.swift */; };
-		7579DFE0278DECDF0060E75D /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFDF278DECDF0060E75D /* BuilderViewController.swift */; };
+		7579DFE2278DED4B0060E75D /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579DFE1278DED4B0060E75D /* BuilderViewController.swift */; };
 		759D18D92789F7A000AF31FD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18D82789F7A000AF31FD /* MainVC.swift */; };
 		759D18DB2789F7F600AF31FD /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18DA2789F7F600AF31FD /* DetailVC.swift */; };
 		759D18DE2789F93100AF31FD /* LoadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */; };
@@ -89,7 +89,7 @@
 		7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilder.swift; sourceTree = "<group>"; };
 		7579DFDB278DEBFD0060E75D /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
-		7579DFDF278DECDF0060E75D /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
+		7579DFE1278DED4B0060E75D /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
 		759D18D82789F7A000AF31FD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		759D18DA2789F7F600AF31FD /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		759D18DD2789F93100AF31FD /* LoadServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadServiceProtocol.swift; sourceTree = "<group>"; };
@@ -239,7 +239,7 @@
 				7579DFD0278DE4D80060E75D /* Catalog */,
 				7579DFD5278DE8D50060E75D /* ModuleBuilder.swift */,
 				7579DFD7278DE91F0060E75D /* CatalogBuilder.swift */,
-				7579DFDF278DECDF0060E75D /* BuilderViewController.swift */,
+				7579DFE1278DED4B0060E75D /* BuilderViewController.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -477,7 +477,6 @@
 				75767A922785E0F00099F5A1 /* FactoreExercises.swift in Sources */,
 				75D8DECC278747050055CCE9 /* ChairKitchen.swift in Sources */,
 				7579DFD2278DE4EA0060E75D /* CatalogPresenter.swift in Sources */,
-				7579DFE0278DECDF0060E75D /* BuilderViewController.swift in Sources */,
 				75D8DEB627873D8D0055CCE9 /* AbstractFactoryVC.swift in Sources */,
 				759D18DB2789F7F600AF31FD /* DetailVC.swift in Sources */,
 				75767A772785C12E0099F5A1 /* AppDelegate.swift in Sources */,
@@ -492,6 +491,7 @@
 				7533523B2788DFB7008B0053 /* TwitterAuthAdapter.swift in Sources */,
 				753352362788DADE008B0053 /* AuthServise.swift in Sources */,
 				75D8DEC92787468E0055CCE9 /* SofaBedroom.swift in Sources */,
+				7579DFE2278DED4B0060E75D /* BuilderViewController.swift in Sources */,
 				759D18E8278B386400AF31FD /* BridgeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
